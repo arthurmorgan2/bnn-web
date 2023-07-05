@@ -15,7 +15,15 @@ use App\Http\Controllers\FrontController;
 */
 
 // Route::get('/', function () {
+<<<<<<< HEAD
 //     return view('welcome');
 // });
 
 Route::get('/', [FrontController::class, 'index'])->name('index');
+=======
+//     return view('client/index');
+// });
+
+Route::get('/', [FrontController::class, 'home']); 
+Route::get('/Home', [FrontController::class, 'index']);
+>>>>>>> 0f09ee5c84d775dba49fdf29b7823a0f6ae82deb

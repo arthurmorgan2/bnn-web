@@ -2,12 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
-    public function index()
+    public function index ()
     {
-        return view('/client/index');
+        return view('client/index');
     }
+    public function home ()
+    {
+        return view('client/home');
+    }
+
 }
