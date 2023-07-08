@@ -1,0 +1,53 @@
+body {
+    font-family: "Poppins", sans-serif;
+    padding-top: 82px;
+}
+
+@media (max-width: 979px) {
+    body {
+        padding-top: 0px;
+    }
+}
+
+:root {
+    /* Color */
+    --pr-color: #4158d0;
+    /* --sc-color: */
+}
+
+/* navbar style */
+.navbar {
+    background-color: var(--pr-color);
+}
+
+.bnn-logo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.sm-icons {
+    flex-direction: row;
+}
+.sm-icons .nav-link {
+    padding-right: 1em;
+}
+
+/* content section */
+.news-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-title {
+    color: var(--pr-color);
+}
+
+.content-title-2 {
+    color: var(--pr-color);
+}

@@ -18,5 +18,4 @@ use App\Http\Controllers\FrontController;
 //     return view('client/index');
 // });
 
-Route::get('/', [FrontController::class, 'home']);
-Route::get('/Home', [FrontController::class, 'index']);
+Route::get('/', [FrontController::class, 'index']);
