@@ -58,26 +58,33 @@
                        <div class="row row-cols-1 row-cols-md-2 g-4">
                            <div class="col m-0">
                                <div class="card">
-                                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
-                                       alt="Hollywood Sign on The Hill" />
+                                   <img src="images/BNN.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
                                    <div class="card-body">
-                                       <h5 class="card-title fw-bold">Card title</h5>
+                                       <h5 class="card-title fw-bold">Pembekalan Bagi Agen Pemulihan IBM Kalurahan sariharjo
+                                       </h5>
                                        <p class="card-text">
-                                           This is a longer card with supporting text below as a natural lead-in to
-                                           additional content. This content is a little bit longer.
+                                           BNN Sleman – Sebagai Kalurahan Bersinar yang belum lama dikukuhkan, Agen
+                                           Pemulihan (AP) Intervensi Berbasis Masyarakat (IBM) di Kalurahan Sariharjo perlu
+                                           diberikan berbagai informasi dan pemahaman, salah satunya adalah terkait tugas
+                                           dan tanggung jawab masing-masing AP. Melalui upaya tersebut diharapkan program
+                                           P4GN di Kalurahan Bersinar Sariharjo akan berjalan dengan baik dan memberikan
+                                           dampak positif bagi masyarakat.
                                        </p>
                                    </div>
                                </div>
                            </div>
                            <div class="col m-0">
                                <div class="card">
-                                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
-                                       alt="Hollywood Sign on The Hill" />
+                                   <img src="images/BNN2.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
                                    <div class="card-body">
-                                       <h5 class="card-title">Card title</h5>
+                                       <h5 class="card-title fw-bold">Dialog Interaktif Remaja Bagi Desa BERSINAR Sariharjo
+                                       </h5>
                                        <p class="card-text">
-                                           This is a longer card with supporting text below as a natural lead-in to
-                                           additional content. This content is a little bit longer.
+                                           BNN Sleman – Untuk mendukung pelaksanaan program P4GN pada Kalurahan Bersih
+                                           Narkoba (BERSINAR) di Kalurahan Sariharjo, BNN Kabupaten Sleman menyelenggarakan
+                                           kegiatan Dialog Interaktif Remaja di The Kharma Villas Sleman. Kegiatan tersebut
+                                           akan diselenggarakan selama 5 kali pertemuan, mulai 03 Juli 2023 hingga 07 Juli
+                                           2023 dengan melibatkan 10 perwakilan remaja dari Kalurahan Sariharjo.
                                        </p>
                                    </div>
                                </div>
@@ -143,8 +150,6 @@
                    </div>
                </div>
            </div>
-           <div class="container-fluid w-100 bg-warning">
-               <h1>Next Content Container</h1>
-           </div>
+
        </section>
    @endsection

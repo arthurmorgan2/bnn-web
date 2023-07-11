@@ -54,19 +54,17 @@
 
                     <!-- Grid column -->
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-left">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                        <h6 class="text-uppercase mb-4 font-weight-bold">PUBLIKASI & PERS</h6>
                         <p>
-                            <a class="text-white">Bootstrap</a>
+                            <a target="_blank" href="https://slemankab.bnn.go.id/berita-kegiatan/" class="text-white">Berita Kegiatan</a>
                         </p>
                         <p>
-                            <a class="text-white">WordPress</a>
+                            <a target="_blank" href="https://slemankab.bnn.go.id/siaran-pers/" class="text-white">Siaran PERS</a>
                         </p>
                         <p>
-                            <a class="text-white">BrandFlow</a>
+                            <a target="blank" href="https://slemankab.bnn.go.id/artikel/" class="text-white">Artiker</a>
                         </p>
-                        <p>
-                            <a class="text-white">Bootstrap Angular</a>
-                        </p>
+                        
                     </div>
                     <!-- Grid column -->
 
@@ -78,16 +76,19 @@
                             Links
                         </h6>
                         <p>
-                            <a class="text-white">Your Account</a>
+                            <a target="_blank" href="https://bnn.go.id/" class="text-white">BNN Pusat</a>
                         </p>
                         <p>
-                            <a class="text-white">Become an Affiliate</a>
+                            <a target="_blank" href="https://perpustakaan.bnn.go.id/id" class="text-white">Perpustakaan Digital</a>
                         </p>
                         <p>
-                            <a class="text-white">Shipping Rates</a>
+                            <a target="_blank" href="https://rehabilitasi.bnn.go.id/public/" class="text-white">Layanan Rehabilitasi(SIRENA)</a>
                         </p>
                         <p>
-                            <a class="text-white">Help</a>
+                            <a target="_blank" href="https://ppid.bnn.go.id/" class="text-white">Layanan Informasi Hukum(PPID)</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://tokostopnarkoba.bnn.go.id/" class="text-white">Toko Stop Narkoba</a>
                         </p>
                     </div>
 
@@ -97,9 +98,9 @@
                     <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-left">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Kontak</h6>
-                        <p><i class="fas fa-home mr-3"></i> Yogyakarta, Kasihan, Bantul</p>
-                        <p><i class="fas fa-envelope mr-3"></i> nurakura9@gmail.com</p>
-                        <p><i class="fas fa-phone mr-3"></i> +62 895 4090 42060</p>
+                        <p><i class="fas fa-home mr-3"></i> Sucen, Triharjo, Kec. Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55514</p>
+                        <p><i class="fas fa-envelope mr-3"></i> humasbnnksleman@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> +62 896-7273-6055</p>
                     </div>
                     <!-- Grid column -->
                 </div>
@@ -126,19 +127,19 @@
                     <!-- Grid column -->
                     <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                         <!-- Facebook -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                        <a href="https://www.facebook.com/bnnksleman?mibextid=ZbWKwL" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                 class="fab fa-facebook-f"></i></a>
 
                         <!-- Twitter -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                        <a href="https://twitter.com/bnnksleman?t=DipdXBAzVz-AOjsPjTFz0g&s=09" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                 class="fab fa-twitter"></i></a>
 
                         <!-- Google -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                        <a href="https://slemankab.bnn.go.id/" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                 class="fab fa-google"></i></a>
 
                         <!-- Instagram -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                        <a href="https://www.youtube.com/@bnnksleman" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                 class="fab fa-instagram"></i></a>
                     </div>
                     <!-- Grid column -->
