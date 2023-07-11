@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-md navbar-dark">
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark">
     <a class="navbar-brand d-flex flex-row" href="#">
         <div class="p-2">
             <img src="images/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">
@@ -15,12 +15,15 @@
         <div class="container-fluid">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    <a class="nav-link active" aria-current="page" href="/">Beranda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Gallery</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                    <a class="nav-link" href="/pendaftaran-online">Daftar Online</a>
+                </li>
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-expanded="false">
                         Daftar Online
@@ -33,7 +36,7 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </li>
+                </li> --}}
             </ul>
         </div>
         <div class="container-fluid">

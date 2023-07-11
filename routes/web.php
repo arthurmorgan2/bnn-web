@@ -18,6 +18,7 @@ use App\Http\Controllers\AdminController;
 
 //Client Side
 Route::get('/', [FrontController::class, 'index']);
+Route::get('/pendaftaran-online', [FrontController::class, 'formDaftar']);
 
 //Admin Side
 //Login Authentification

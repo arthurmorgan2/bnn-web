@@ -9,4 +9,9 @@ class FrontController extends Controller
     {
         return view('client/index');
     }
+
+    public function formDaftar()
+    {
+        return view('client/pendaftaran-online');
+    }
 }

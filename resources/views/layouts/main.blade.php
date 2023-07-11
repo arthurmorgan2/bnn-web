@@ -30,7 +30,7 @@
     @yield('content')
 
     {{-- Footer Section --}}
-    <footer class="text-center text-lg-start text-white position-relative" style="background-color: #4158d0">
+    <footer class="text-center text-lg-start text-white position-relative footer-container">
         <!-- Grid container -->
         <div class="container-fluid p-4 pb-0">
             <!-- Section: Links -->
