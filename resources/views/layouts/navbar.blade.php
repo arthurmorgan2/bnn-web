@@ -3,7 +3,7 @@
         <div class="p-2">
             <img src="images/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">
         </div>
-        <div class="p-2 mt-1 d-none d-sm-block">Badan Narkotika Nasional Klinik
+        <div class="d-none d-sm-block">Badan Narkotika Nasional Klinik
             Sleman
         </div>
     </a>

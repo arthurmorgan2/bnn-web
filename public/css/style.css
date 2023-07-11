@@ -9,10 +9,21 @@ body {
     }
 }
 
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
 :root {
     /* Color */
     --pr-color: #4158d0;
     /* --sc-color: */
+}
+
+/* Carousel Style */
+.carousel-inner {
+    width: 100%;
+    max-height: 643px !important;
 }
 
 /* navbar style */
@@ -37,6 +48,10 @@ body {
     padding-right: 1em;
 }
 
+.navbar-brand {
+    margin-left: 1rem;
+}
+
 /* content section */
 .news-content {
     display: flex;
@@ -46,8 +61,18 @@ body {
 
 .content-title {
     color: var(--pr-color);
+    padding: 2rem;
+    font-size: 48px;
 }
 
 .content-title-2 {
     color: var(--pr-color);
+}
+
+.card {
+    margin: 3rem 2rem;
+}
+
+.card-populer {
+    margin: 2rem 0;
 }

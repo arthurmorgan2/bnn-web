@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +16,12 @@ use App\Http\Controllers\FrontController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('client/index');
-// });
-
+//Client Side
 Route::get('/', [FrontController::class, 'index']);
+
+//Admin Side
+//Login Authentification
+Route::get('/login', [LoginController::class, 'index']);
+
+//Dashboard Route
+Route::get('/dashboard', [AdminController::class, 'index']);
