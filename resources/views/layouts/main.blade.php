@@ -38,15 +38,21 @@
                 <!--Grid row-->
                 <div class="row">
                     <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-left">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Badan Narkotika Nasional Klinik Sleman
-                        </h6>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-left">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">PUBLIKASI & PERS</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate rem tempore repudiandae
-                            modi voluptate quas voluptates ratione incidunt veritatis quisquam atque error pariatur iure
-                            ullam praesentium perferendis sequi, voluptatum laudantium.
+                            <a target="_blank" href="https://slemankab.bnn.go.id/berita/" class="text-white">Bidang Umum</a>
                         </p>
+                        <p>
+                            <a target="_blank" href="https://slemankab.bnn.go.id/pencegahan/" class="text-white">Bidan Pencegah dan Pemberdayaan Masyarakat</a>
+                        </p>
+                        <p>
+                            <a target="blank" href="https://slemankab.bnn.go.id/rehabilitasi/" class="text-white">Bidang Rehabilitasi</a>
+                        </p>
+                        <p>
+                            <a target="blank" href="https://slemankab.bnn.go.id/pemberantasan/" class="text-white">Bidang Bidang Pemberantasan</a>    
+                        </p>
+                        
                     </div>
                     <!-- Grid column -->
 
@@ -127,19 +133,19 @@
                     <!-- Grid column -->
                     <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                         <!-- Facebook -->
-                        <a href="https://www.facebook.com/bnnksleman?mibextid=ZbWKwL" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                        <a target="_blank" href="https://www.facebook.com/bnnksleman?mibextid=ZbWKwL" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                 class="fab fa-facebook-f"></i></a>
 
                         <!-- Twitter -->
-                        <a href="https://twitter.com/bnnksleman?t=DipdXBAzVz-AOjsPjTFz0g&s=09" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                        <a target="_blank" href="https://twitter.com/bnnksleman?t=DipdXBAzVz-AOjsPjTFz0g&s=09" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                 class="fab fa-twitter"></i></a>
 
                         <!-- Google -->
-                        <a href="https://slemankab.bnn.go.id/" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                        <a target="_blank" href="https://slemankab.bnn.go.id/" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                 class="fab fa-google"></i></a>
 
                         <!-- Instagram -->
-                        <a href="https://www.youtube.com/@bnnksleman" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                        <a target="_blank" href="https://instagram.com/infobnn_kab_sleman?igshid=MzRlODBiNWFlZA==" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
                                 class="fab fa-instagram"></i></a>
                     </div>
                     <!-- Grid column -->

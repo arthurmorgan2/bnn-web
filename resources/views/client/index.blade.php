@@ -91,26 +91,35 @@
                            </div>
                            <div class="col m-0">
                                <div class="card">
-                                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
+                                   <img src="images/BNN4.webp" class="card-img-top"
                                        alt="Hollywood Sign on The Hill" />
                                    <div class="card-body">
-                                       <h5 class="card-title">Card title</h5>
+                                       <h5 class="card-title fw-bold">Tes Urin dan Razia Kamar Hunian WBP Lapas IIB Sleman</h5>
                                        <p class="card-text">
-                                           This is a longer card with supporting text below as a natural lead-in to
-                                           additional content. This content is a little bit longer.
+                                       BNN Sleman – BNN Kabupaten Sleman kembali bersinergi dengan Lembaga Pemasyarakatan Kelas IIB
+                                        Sleman dalam rangka tes urin dan penggeledahan kamar hunian Warga Binaan Pemasyarakatan
+                                         (WBP) (23/06/2023). Kegiatan diawali dengan melakukan tes urin kepada 15 WBP serta 5 pegawai Lapas.
                                        </p>
                                    </div>
                                </div>
                            </div>
                            <div class="col m-0">
                                <div class="card">
-                                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
+                                   <img src="images/BNN3.webp" class="card-img-top"
                                        alt="Hollywood Sign on The Hill" />
                                    <div class="card-body">
-                                       <h5 class="card-title">Card title</h5>
+                                       <h5 class="card-title fw-bold">Rekor dan Sinkronisasi Pelaporan Inpres Nomor 2 Tahun 2020 Bagi OPD Pemkab Sleman
+                                       </h5>
                                        <p class="card-text">
-                                           This is a longer card with supporting text below as a natural lead-in to
-                                           additional content. This content is a little bit longer.
+                                           BNN Sleman – BNN Kabupaten Sleman kembali melaksanakan rapat koordinasi dan sinkronisasi
+                                           dalam rangka pelaporan Rencana Aksi Nasional (RAN) P4GN sebagaimana Instruksi Presiden 
+                                           Nomor 2 tahun 2020 (04/07/2023). Kegiatan ini diselenggarakan di Ruang Rapat Sembada
+                                           Setda Sleman dengan melibatkan 30 PIC perwakilan Organisasi Perangkat Daerah (OPD) 
+                                           di lingkungan Pemerintah Kabupaten Sleman. Selain untuk mengetahui progres pelaksanaan 
+                                           RAN P4GN, kegiatan ini juga bertujuan untuk menjalin sinergi antara Pemerintah Kabupaten
+                                           Sleman dengan BNN Kabupaten Sleman dalam hal P4GN. Sesuai Inpres Nomor 2 tahun 2020, 
+                                           tugas BNN adalah melakukan pembinaan, pengawasan, pemantauan, dan evaluasi terhadap 
+                                           pelaksanaan RAN P4GN oleh Pemerintah Daerah.
                                        </p>
                                    </div>
                                </div>
