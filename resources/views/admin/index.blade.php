@@ -44,21 +44,24 @@
     <div class="container d-flex justify-content-center align-items-center h-100">
         <div class="tab-content">
             <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
-                <form>
+                <form action="/login" method="post">
+                    @csrf
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                        <input type="email" id="loginName" class="form-control" />
-                        <label class="form-label" for="loginName">Email or username</label>
+                        <input type="email" id="email" name="email"
+                            class="form-control @error('email') is-invalid @enderror" required autofocus />
+                        <label class="form-label" for="email">Email</label>
                     </div>
 
                     <!-- Password input -->
                     <div class="form-outline mb-4">
-                        <input type="password" id="loginPassword" class="form-control" />
-                        <label class="form-label" for="loginPassword">Password</label>
+                        <input type="password" id="password" name="password"
+                            class="form-control @error('password') is-invalid @enderror" />
+                        <label class="form-label" for="password">Password</label>
                     </div>
 
                     <!-- 2 column grid layout -->
-                    <div class="row mb-4">
+                    {{-- <div class="row mb-4">
                         <div class="col-md-6 d-flex justify-content-center">
                             <!-- Checkbox -->
                             <div class="form-check mb-3 mb-md-0">
@@ -72,16 +75,23 @@
                             <!-- Simple link -->
                             <a href="#!">Forgot password?</a>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <!-- Submit button -->
                     <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
-
-                    <!-- Register buttons -->
-                    <div class="text-center">
-                        <p>Belum Punya Akun? <a href="#!">Daftar</a></p>
-                    </div>
                 </form>
+                @if (session()->has('loginError'))
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        {{ session('loginError') }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                        </button>
+                    </div>
+                @endif
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Belum Punya Akun? <a href="#!">Daftar</a></p>
+                </div>
             </div>
             <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
                 <form>
@@ -131,6 +141,8 @@
         </div>
         <!-- Pills content -->
     </div>
+
+
 
     {{-- CSS JScript --}}
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

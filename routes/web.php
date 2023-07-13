@@ -22,7 +22,11 @@ Route::get('/pendaftaran-online', [FrontController::class, 'formDaftar']);
 
 //Admin Side
 //Login Authentification
-Route::get('/login', [LoginController::class, 'index']);
+Route::controller(LoginController::class)->group(function () {
+    Route::get('/login', 'index');
+    Route::post('/login', 'authenticate');
+    Route::get('/logout', 'logout');
+});
 
 //Dashboard Route
-Route::get('/dashboard', [AdminController::class, 'index']);
+Route::get('/dashboard', [AdminController::class, 'index'])->middleware('auth');

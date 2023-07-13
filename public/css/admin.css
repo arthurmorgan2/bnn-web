@@ -1,0 +1,15 @@
+:root {
+    /* Color */
+    --pr-color: #036;
+    /* --sc-color: */
+}
+
+/* Sidebar Style */
+.main-sidebar {
+    background-color: var(--pr-color);
+}
+
+/* Dashboard Style */
+.title {
+    color: var(--pr-color);
+}

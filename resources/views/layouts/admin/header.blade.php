@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
     {{-- assets --}}
     <link rel="shortcut icon" href="{{ asset('assets/img/logo.png') }}">
-    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}"> --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/admin.css') }}">
 </head>
 
 <!-- Preloader Loading Logo -->
@@ -54,7 +54,7 @@
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
         <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__shake" src="{{ asset('assets/img/logo.png') }}" alt="AdminLTELogo" height="60"
+            <img class="animation__shake" src="{{ asset('assets/img/logo.png') }}" alt="bnnklogo" height="60"
                 width="60">
         </div>
         <!-- End Preloader Loading Logo -->

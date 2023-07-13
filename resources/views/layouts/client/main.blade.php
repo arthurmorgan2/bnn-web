@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/mdb/mdb.min.css" />
     {{-- Font Awesome CDN --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    {{-- Tab Icon --}}
+    <link rel="shortcut icon" href="{{ asset('assets/img/logo.png') }}">
     <title>BNN Klinik</title>
 </head>
 

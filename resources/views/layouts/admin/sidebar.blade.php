@@ -1,5 +1,5 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #036">
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand BNN Klinik Sleman Admin -->
     <a href="#" class="brand-link">
         <img src="{{ asset('assets/img/logo.png') }}" alt="DPTR Logo" class="brand-image img-circle elevation-3"
@@ -51,7 +51,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/logout" class="nav-link">
                         <i class="nav-icon fas bi-box-arrow-right"></i>
                         <p>
                             Logout

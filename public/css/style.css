@@ -11,7 +11,7 @@ body {
 :root {
     /* Color */
     --pr-color: #036;
-    /* --sc-color: */
+    --sc-color: rgb(230, 230, 5);
 }
 
 .carousel-container {
@@ -64,7 +64,7 @@ body {
     color: var(--pr-color);
     padding: 1rem;
     font-size: 48px;
-    border-bottom: solid rgb(230, 230, 5) 5px;
+    border-bottom: solid var(--sc-color) 5px;
 }
 
 .content-title-2 {
@@ -72,7 +72,7 @@ body {
 }
 
 .populer-underline {
-    border-bottom: solid rgb(230, 230, 5) 5px;
+    border-bottom: solid var(--sc-color) 5px;
 }
 
 .card {
@@ -100,7 +100,7 @@ body {
 }
 
 .pendaftaran-online-underline {
-    border-bottom: solid rgb(230, 230, 5) 5px;
+    border-bottom: solid var(--sc-color) 5px;
 }
 
 /* footer style */
