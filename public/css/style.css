@@ -3,12 +3,6 @@ body {
     padding-top: 82px;
 }
 
-@media (max-width: 979px) {
-    body {
-        padding-top: 0px;
-    }
-}
-
 .container-fluid {
     padding: 0;
     margin: 0;
@@ -16,15 +10,9 @@ body {
 
 :root {
     /* Color */
-    --pr-color: #4158d0;
+    --pr-color: #036;
     /* --sc-color: */
 }
-
-/* Carousel Style */
-/* .carousel-inner {
-    width: 100%;
-    min-height: 90vh !important;
-} */
 
 .carousel-container {
     margin: 2rem 0;
@@ -74,12 +62,17 @@ body {
 
 .content-title {
     color: var(--pr-color);
-    padding: 2rem;
+    padding: 1rem;
     font-size: 48px;
+    border-bottom: solid rgb(230, 230, 5) 5px;
 }
 
 .content-title-2 {
     color: var(--pr-color);
+}
+
+.populer-underline {
+    border-bottom: solid rgb(230, 230, 5) 5px;
 }
 
 .card {
@@ -98,8 +91,16 @@ body {
 }
 
 .title {
-    font-size: 36px;
+    font-size: 32px;
     color: var(--pr-color);
+}
+
+.label {
+    color: var(--pr-color);
+}
+
+.pendaftaran-online-underline {
+    border-bottom: solid rgb(230, 230, 5) 5px;
 }
 
 /* footer style */
