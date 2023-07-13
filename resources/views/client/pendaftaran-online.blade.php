@@ -40,14 +40,72 @@
                                 </div>
                             </div>
                             <div class="row mb-4">
+                                <div class="col-2  d-flex justify-content-left align-items-center">
+                                    <div class="label">Tempat Lahir</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-2  d-flex justify-content-left align-items-center">
+                                    <div class="label">Tanggal Lahir</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-4  d-flex justify-content-left align-items-center">
+                                    <div class="label">Alamat Lengkap</div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-outline">
+                                        <textarea type="text" id="form6Example1" class="form-control" ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-4  d-flex justify-content-left align-items-center">
+                                    <div class="label">Agama</div>
+                                </div>
+                                <div class="col-8">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Pilih Agama</option>
+                                        <option value="1">Islam</option>
+                                        <option value="2">Kristen</option>
+                                        <option value="2">Hindu</option>
+                                        <option value="2">Buddha</option>
+                                        <option value="2">Konghucu</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
                                 <div class="col-4  d-flex justify-content-left align-items-center">
                                     <div class="label">Jenis Kelamin</div>
                                 </div>
+                              
                                 <div class="col-8">
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected>Pilih Jenis Kelamin</option>
                                         <option value="1">Laki-laki</option>
                                         <option value="2">Perempuan</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-4  d-flex justify-content-left align-items-center">
+                                    <div class="label">Golongan Darah</div>
+                                </div>
+                                <div class="col-8">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Pilih Golongan Darah</option>
+                                        <option value="1">A</option>
+                                        <option value="2">B</option>
+                                        <option value="2">AB</option>
+                                        <option value="2">O</option>
                                     </select>
                                 </div>
                             </div>
