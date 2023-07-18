@@ -15,7 +15,7 @@
                 data-accordion="false">
                 <li class="nav-header">Menu</li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/dashboard" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
                             Dashboard
@@ -33,7 +33,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/artikel" class="nav-link">
                         <i class="nav-icon fas fa-bookmark"></i>
                         <p>
                             Artikel Berita
@@ -42,7 +42,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/artikel" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p style="font-size: 14px">Tabel Berita</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/artikel/kategori" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p style="font-size: 14px">Kategori Berita</p>
                             </a>

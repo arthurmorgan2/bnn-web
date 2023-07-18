@@ -1,3 +1,9 @@
+:root {
+    /* Color */
+    --pr-color: #036;
+    --sc-color: rgb(230, 230, 5);
+}
+
 body {
     font-family: "Poppins", sans-serif;
     padding-top: 82px;
@@ -6,12 +12,6 @@ body {
 .container-fluid {
     padding: 0;
     margin: 0;
-}
-
-:root {
-    /* Color */
-    --pr-color: #036;
-    --sc-color: rgb(230, 230, 5);
 }
 
 .carousel-container {
@@ -67,8 +67,20 @@ body {
     border-bottom: solid var(--sc-color) 5px;
 }
 
+.content-title-detail {
+    color: var(--pr-color);
+    padding: 1rem;
+    font-size: 48px;
+}
+
 .content-title-2 {
     color: var(--pr-color);
+}
+
+.content-title-underline {
+    border-bottom: solid var(--sc-color) 5px;
+    border-radius: 2px;
+    padding-bottom: 10px;
 }
 
 .populer-underline {
@@ -81,6 +93,10 @@ body {
 
 .card-populer {
     margin: 2rem 0;
+}
+
+.thumbnail {
+    box-shadow: -5px 1px 22px 0px rgba(0, 0, 0, 0.58);
 }
 
 /* pendaftaran content section */
@@ -102,7 +118,6 @@ body {
 .pendaftaran-online-underline {
     border-bottom: solid var(--sc-color) 5px;
 }
-
 /* footer style */
 
 .footer-container {

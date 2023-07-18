@@ -1,7 +1,8 @@
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
     <a class="navbar-brand d-flex flex-row" href="#">
         <div class="p-2">
-            <img src="images/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">
+            <img src="{{ URL::asset('images/logo.png') }}" width="40" height="40" class="d-inline-block align-center"
+                alt="">
         </div>
         <div class="d-none d-sm-block">Badan Narkotika Nasional Klinik
             Sleman
@@ -44,16 +45,23 @@
                 <div class="d-flex flex-row">
 
                     <div class="p-2">
-                        <li><a class="nav-link" target="_blank" href="https://twitter.com/bnnksleman?t=DipdXBAzVz-AOjsPjTFz0g&s=09"><i class="fa-brands fa-twitter"></i></></a></li>
+                        <li><a class="nav-link" target="_blank"
+                                href="https://twitter.com/bnnksleman?t=DipdXBAzVz-AOjsPjTFz0g&s=09"><i
+                                    class="fa-brands fa-twitter"></i></></a></li>
                     </div>
                     <div class="p-2">
-                        <li><a class="nav-link" target="_blank" href="https://www.facebook.com/bnnksleman?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a class="nav-link" target="_blank"
+                                href="https://www.facebook.com/bnnksleman?mibextid=ZbWKwL"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
                     </div>
                     <div class="p-2">
-                        <li><a class="nav-link" target="_blank" href="https://www.instagram.com/infobnn_kab_sleman/?hl=id"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a class="nav-link" target="_blank"
+                                href="https://www.instagram.com/infobnn_kab_sleman/?hl=id"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
                     </div>
                     <div class="p-2">
-                        <li><a class="nav-link" target="_blank" href="https://www.youtube.com/@bnnksleman"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a class="nav-link" target="_blank" href="https://www.youtube.com/@bnnksleman"><i
+                                    class="fa-brands fa-youtube"></i></a></li>
                     </div>
 
                 </div>

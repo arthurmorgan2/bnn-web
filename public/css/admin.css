@@ -4,6 +4,17 @@
     /* --sc-color: */
 }
 
+hr {
+    width: 100%;
+    border: solid var(--pr-color) 2px;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    background-color: var(--pr-color);
+    border-color: var(--pr-color);
+}
+
 /* Sidebar Style */
 .main-sidebar {
     background-color: var(--pr-color);
@@ -12,4 +23,13 @@
 /* Dashboard Style */
 .title {
     color: var(--pr-color);
+}
+
+/* Artikel Style */
+.form-card {
+    background-color: #036;
+}
+
+.label {
+    color: white;
 }

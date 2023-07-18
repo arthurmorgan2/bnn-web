@@ -18,17 +18,8 @@
                 <div class="row">
                     <div class="col-6">
                         {{-- Form Pendaftaran Content --}}
-                        <form action="POST">
-                            <div class="row mb-4">
-                                <div class="col-4  d-flex justify-content-left align-items-center">
-                                    <div class="label">Nomor Induk Keluarga</div>
-                                </div>
-                                <div class="col-8">
-                                    <div class="form-outline">
-                                        <input type="number" id="form6Example1" class="form-control" />
-                                    </div>
-                                </div>
-                            </div>
+                        <form action="#" method="post">
+                            @csrf
                             <div class="row mb-4">
                                 <div class="col-4  d-flex justify-content-left align-items-center">
                                     <div class="label">Nama Lengkap</div>
@@ -40,21 +31,42 @@
                                 </div>
                             </div>
                             <div class="row mb-4">
-                                <div class="col-2  d-flex justify-content-left align-items-center">
-                                    <div class="label">Tempat Lahir</div>
+                                <div class="col-4  d-flex justify-content-left align-items-center">
+                                    <div class="label">Nomor Induk Keluarga</div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-outline">
+                                        <input type="number" id="form6Example1" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-4  d-flex justify-content-left align-items-center">
+                                    <div class="label">Tempat dan Tanggal Lahir</div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-outline">
                                         <input type="text" id="form6Example1" class="form-control" />
                                     </div>
                                 </div>
-                                <div class="col-2  d-flex justify-content-left align-items-center">
-                                    <div class="label">Tanggal Lahir</div>
-                                </div>
                                 <div class="col-4">
                                     <div class="form-outline">
-                                        <input type="text" id="form6Example1" class="form-control" />
+                                        <input type="date" id="form6Example1" class="form-control" />
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-4  d-flex justify-content-left align-items-center">
+                                    <div class="label">Jenis Kelamin</div>
+                                </div>
+
+                                <div class="col-8">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Pilih Jenis Kelamin</option>
+                                        <option value="1">Laki-laki</option>
+                                        <option value="2">Perempuan</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="row mb-4">
@@ -63,7 +75,7 @@
                                 </div>
                                 <div class="col-8">
                                     <div class="form-outline">
-                                        <textarea type="text" id="form6Example1" class="form-control" ></textarea>
+                                        <textarea type="text" id="form6Example1" class="form-control"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -82,19 +94,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="row mb-4">
-                                <div class="col-4  d-flex justify-content-left align-items-center">
-                                    <div class="label">Jenis Kelamin</div>
-                                </div>
-                              
-                                <div class="col-8">
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Pilih Jenis Kelamin</option>
-                                        <option value="1">Laki-laki</option>
-                                        <option value="2">Perempuan</option>
-                                    </select>
-                                </div>
-                            </div>
+
                             <div class="row mb-4">
                                 <div class="col-4  d-flex justify-content-left align-items-center">
                                     <div class="label">Golongan Darah</div>

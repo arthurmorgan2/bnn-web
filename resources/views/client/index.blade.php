@@ -54,123 +54,91 @@
            <div class="container">
                <div class="row">
                    <div class="col-md-9">
-                       <div class="content-title text-center">Berita Terbaru</div>
-                       <div class="row row-cols-1 row-cols-md-2 g-4">
-                           <div class="col m-0">
-                               <div class="card">
-                                   <img src="images/BNN.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                                   <div class="card-body">
-                                       <h5 class="card-title fw-bold">Pembekalan Bagi Agen Pemulihan IBM Kalurahan sariharjo
-                                       </h5>
-                                       <p class="card-text">
-                                           BNN Sleman – Sebagai Kalurahan Bersinar yang belum lama dikukuhkan, Agen
-                                           Pemulihan (AP) Intervensi Berbasis Masyarakat (IBM) di Kalurahan Sariharjo perlu
-                                           diberikan berbagai informasi dan pemahaman, salah satunya adalah terkait tugas
-                                           dan tanggung jawab masing-masing AP. Melalui upaya tersebut diharapkan program
-                                           P4GN di Kalurahan Bersinar Sariharjo akan berjalan dengan baik dan memberikan
-                                           dampak positif bagi masyarakat.
-                                       </p>
-                                   </div>
-                               </div>
+                       <div class="content-title text-center rounded">Berita Terbaru</div>
+                       <div class="card-data">
+                           <div class="row row-cols-1 row-cols-md-2 g-4">
+                               @foreach ($artikel as $item)
+                                   <a href="{{ url('/berita/' . $item->slug) }}" class="">
+                                       <div class="col m-0">
+                                           <div class="card">
+                                               <img src="{{ asset('uploads/' . $item->gambar_artikel) }}"
+                                                   class="card-img-top" alt="Gambar Artikel" />
+                                               <div class="card-body">
+                                                   <h5 class="card-title fw-bold">{{ $item->judul }}
+                                                   </h5>
+                                                   <div class="card-text">
+
+                                                       {{ Str::words($item->body, 15, ' ...') }}
+
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </a>
+                               @endforeach
                            </div>
-                           <div class="col m-0">
-                               <div class="card">
-                                   <img src="images/BNN2.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                                   <div class="card-body">
-                                       <h5 class="card-title fw-bold">Dialog Interaktif Remaja Bagi Desa BERSINAR Sariharjo
-                                       </h5>
-                                       <p class="card-text">
-                                           BNN Sleman – Untuk mendukung pelaksanaan program P4GN pada Kalurahan Bersih
-                                           Narkoba (BERSINAR) di Kalurahan Sariharjo, BNN Kabupaten Sleman menyelenggarakan
-                                           kegiatan Dialog Interaktif Remaja di The Kharma Villas Sleman. Kegiatan tersebut
-                                           akan diselenggarakan selama 5 kali pertemuan, mulai 03 Juli 2023 hingga 07 Juli
-                                           2023 dengan melibatkan 10 perwakilan remaja dari Kalurahan Sariharjo.
-                                       </p>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col m-0">
-                               <div class="card">
-                                   <img src="images/BNN4.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                                   <div class="card-body">
-                                       <h5 class="card-title fw-bold">Tes Urin dan Razia Kamar Hunian WBP Lapas IIB Sleman
-                                       </h5>
-                                       <p class="card-text">
-                                           BNN Sleman – BNN Kabupaten Sleman kembali bersinergi dengan Lembaga
-                                           Pemasyarakatan Kelas IIB
-                                           Sleman dalam rangka tes urin dan penggeledahan kamar hunian Warga Binaan
-                                           Pemasyarakatan
-                                           (WBP) (23/06/2023). Kegiatan diawali dengan melakukan tes urin kepada 15 WBP
-                                           serta 5 pegawai Lapas.
-                                       </p>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col m-0">
-                               <div class="card">
-                                   <img src="images/BNN3.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                                   <div class="card-body">
-                                       <h5 class="card-title fw-bold">Rekor dan Sinkronisasi Pelaporan Inpres Nomor 2 Tahun
-                                           2020 Bagi OPD Pemkab Sleman
-                                       </h5>
-                                       <p class="card-text">
-                                           BNN Sleman – BNN Kabupaten Sleman kembali melaksanakan rapat koordinasi dan
-                                           sinkronisasi
-                                           dalam rangka pelaporan Rencana Aksi Nasional (RAN) P4GN sebagaimana Instruksi
-                                           Presiden
-                                           Nomor 2 tahun 2020 (04/07/2023). Kegiatan ini diselenggarakan di Ruang Rapat
-                                           Sembada
-                                           Setda Sleman dengan melibatkan 30 PIC perwakilan Organisasi Perangkat Daerah
-                                           (OPD)
-                                           di lingkungan Pemerintah Kabupaten Sleman. Selain untuk mengetahui progres
-                                           pelaksanaan
-                                           RAN P4GN, kegiatan ini juga bertujuan untuk menjalin sinergi antara Pemerintah
-                                           Kabupaten
-                                           Sleman dengan BNN Kabupaten Sleman dalam hal P4GN. Sesuai Inpres Nomor 2 tahun
-                                           2020,
-                                           tugas BNN adalah melakukan pembinaan, pengawasan, pemantauan, dan evaluasi
-                                           terhadap
-                                           pelaksanaan RAN P4GN oleh Pemerintah Daerah.
-                                       </p>
-                                   </div>
+                           <div class="row">
+                               <div class="col-md-12 text-center d-flex justify-content-center align-items-center">
+                                   {!! $artikel->links() !!}
                                </div>
                            </div>
                        </div>
                    </div>
+
+                   {{-- Berita Populer Section --}}
                    <div class="col-md-3 mt-5 border-left-0">
-                       <h3 class="content-title-2 text-center p-3 m-0">Berita <span class="populer-underline">Populer</span>
+                       <h3 class="content-title-2 text-center p-3 m-0">Berita <span
+                               class="populer-underline rounded">Populer</span>
                        </h3>
-                       <div class="row card-populer">
-                           <div class="col d-flex justify-content-center align-items-center">
-                               <div class="card m-0 w-75">
-                                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
-                                       alt="Hollywood Sign on The Hill" />
-                                   <div class="card-body">
-                                       <h5 class="card-title">Card title</h5>
-                                       <p class="card-text">
-                                           This is a longer card with supporting
-                                       </p>
+                       @foreach ($post_populer as $item)
+                           <a href="{{ url('/berita/' . $item->slug) }}">
+                               <div class="row card-populer">
+                                   <div class="col d-flex justify-content-center align-items-center">
+                                       <div class="card m-0 w-75">
+                                           <img src="{{ asset('uploads/' . $item->gambar_artikel) }}" class="card-img-top"
+                                               alt="Gambar Artikel" />
+                                           <div class="card-body">
+                                               <h5 class="card-title">{{ $item->judul }}</h5>
+                                               <p class="card-text">
+                                                   {{ Str::words($item->body, 5, ' ...') }}
+                                               </p>
+                                           </div>
+                                       </div>
                                    </div>
                                </div>
-                           </div>
-                       </div>
-                       <div class="row card-populer">
-                           <div class="col d-flex justify-content-center align-items-center">
-                               <div class="card m-0 w-75">
-                                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
-                                       alt="Hollywood Sign on The Hill" />
-                                   <div class="card-body">
-                                       <h5 class="card-title">Card title</h5>
-                                       <p class="card-text">
-                                           This is a longer card with supporting
-                                       </p>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
+                           </a>
+                       @endforeach
+
+
                    </div>
                </div>
+
            </div>
 
        </section>
+       {{-- Pagination AJAX --}}
+       <script>
+           $.ajaxSetup({
+               headers: {
+                   'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+               }
+           });
+       </script>
+       <script type="text/javascript">
+           //pagination
+           $(document).on('click', '.pagination a', function(e) {
+               e.preventDefault();
+               let page = $(this).attr('href').split('page=')[1]
+               record(page)
+           })
+
+           function record(page) {
+               $.ajax({
+                   url: "/ajax-paginate?page=" + page,
+                   success: function(res) {
+                       $('.card-data').html(res);
+                   }
+               })
+           }
+       </script>
    @endsection
