@@ -31,10 +31,4 @@ class Artikel extends Model
     {
         return $this->belongsTo(User::class, 'user_id', 'id');
     }
-
-    // public function incrementViewCount()
-    // {
-    //     $this->views++;
-    //     return $this->save();
-    // }s
 }

@@ -95,7 +95,7 @@ body {
     margin: 2rem 0;
 }
 
-.thumbnail {
+.content-images {
     box-shadow: -5px 1px 22px 0px rgba(0, 0, 0, 0.58);
 }
 
@@ -118,6 +118,18 @@ body {
 .pendaftaran-online-underline {
     border-bottom: solid var(--sc-color) 5px;
 }
+
+.pasienBaru {
+    width: 400px;
+    height: 300px;
+    border: solid var(--pr-color) 3px;
+}
+.pasienLama {
+    width: 400px;
+    height: 300px;
+    border: solid var(--sc-color) 3px;
+}
+
 /* footer style */
 
 .footer-container {

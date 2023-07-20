@@ -22,15 +22,14 @@ use App\Http\Controllers\CookieController;
 //Client Side
 Route::get('/', [FrontController::class, 'index']);
 Route::get('/berita/{slug}', [FrontController::class, 'detail_artikel'])->name('detail_artikel');
-Route::get('/pendaftaran-online', [FrontController::class, 'formDaftar']);
+Route::get('/pendaftaran-online', [FrontController::class, 'pasienLink']);
+Route::get('/pendaftaran-online/pasienbaru', [FrontController::class, 'PasienBaruShow']);
+Route::post('/pendaftaran-online/pasienbaru/create', [FrontController::class, 'PasienBaruCreate']);
+Route::get('/pendaftaran-online/pasienlama', [FrontController::class, 'PasienLamaShow']);
 Route::get('/ajax-paginate', [FrontController::class, 'ajaxPaginate'])->name('ajax.paginate');
 
+
 //Admin Side
-// Cookie Config
-Route::get('/cookie/set', [CookieController::class, 'setCookie']);
-Route::get('/cookie/get', [CookieController::class, 'setCookie']);
-
-
 //Login Authentification
 Route::controller(LoginController::class)->group(function () {
     Route::get('/login', 'index');

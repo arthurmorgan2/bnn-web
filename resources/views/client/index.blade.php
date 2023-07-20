@@ -54,7 +54,7 @@
            <div class="container">
                <div class="row">
                    <div class="col-md-9">
-                       <div class="content-title text-center rounded">Berita Terbaru</div>
+                       <div class="content-title text-center rounded fw-bold">Berita Terbaru</div>
                        <div class="card-data">
                            <div class="row row-cols-1 row-cols-md-2 g-4">
                                @foreach ($artikel as $item)
@@ -88,7 +88,7 @@
                    {{-- Berita Populer Section --}}
                    <div class="col-md-3 mt-5 border-left-0">
                        <h3 class="content-title-2 text-center p-3 m-0">Berita <span
-                               class="populer-underline rounded">Populer</span>
+                               class="populer-underline fw-bold rounded">Populer</span>
                        </h3>
                        @foreach ($post_populer as $item)
                            <a href="{{ url('/berita/' . $item->slug) }}">
@@ -116,29 +116,5 @@
            </div>
 
        </section>
-       {{-- Pagination AJAX --}}
-       <script>
-           $.ajaxSetup({
-               headers: {
-                   'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-               }
-           });
-       </script>
-       <script type="text/javascript">
-           //pagination
-           $(document).on('click', '.pagination a', function(e) {
-               e.preventDefault();
-               let page = $(this).attr('href').split('page=')[1]
-               record(page)
-           })
-
-           function record(page) {
-               $.ajax({
-                   url: "/ajax-paginate?page=" + page,
-                   success: function(res) {
-                       $('.card-data').html(res);
-                   }
-               })
-           }
-       </script>
+       
    @endsection

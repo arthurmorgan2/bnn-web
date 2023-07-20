@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     {{-- Tab Icon --}}
     <link rel="shortcut icon" href="{{ URL::asset('assets/img/logo.png') }}">
+    {{-- SweetALert JS --}}
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer></script>
     <title>BNN Klinik</title>
 </head>
 
@@ -187,7 +189,33 @@
     </script>
     <!-- MDB -->
     <script type="text/javascript" src="{{ URL::asset('js/mdb.min.js') }}"></script>
+    {{-- Pagination AJAX --}}
+    <script>
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        //pagination
+        $(document).on('click', '.pagination a', function(e) {
+            e.preventDefault();
+            let page = $(this).attr('href').split('page=')[1]
+            record(page)
+        })
 
+        function record(page) {
+            $.ajax({
+                url: "/ajax-paginate?page=" + page,
+                success: function(res) {
+                    $('.card-data').html(res);
+                }
+            })
+        }
+    </script>
+
+    @include('sweetalert::alert')
 
 </body>
 

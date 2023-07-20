@@ -15,9 +15,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 p-5 d-flex justify-content-center">
-                    <div class="thumbnail w-50">
+            <div class="row p-5">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="content-images d-flex justify-content-center">
                         <img src="{{ asset('uploads/' . $artikel->gambar_artikel) }}" alt="hahaha"
                             class="img-fluid img-thumbnail rounded">
                     </div>
@@ -44,7 +44,39 @@
             </div>
             <div class="row d-flex justify-content-center">
                 @foreach ($post_populer as $item)
-                    <div class="col-sm-2">
+                    <div class="col-6 col-md-2">
+                        <div class="card-populer">
+                            <div class="card m-0">
+                                <img src="{{ asset('uploads/' . $item->gambar_artikel) }}" class="card-img-top"
+                                    alt="Gambar Artikel" />
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ $item->judul }}</h5>
+                                    <p class="card-text">
+                                        {{ Str::words($item->body, 5, ' ...') }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+                @foreach ($post_populer as $item)
+                    <div class="col-6 col-md-2">
+                        <div class="card-populer">
+                            <div class="card m-0">
+                                <img src="{{ asset('uploads/' . $item->gambar_artikel) }}" class="card-img-top"
+                                    alt="Gambar Artikel" />
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ $item->judul }}</h5>
+                                    <p class="card-text">
+                                        {{ Str::words($item->body, 5, ' ...') }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+                @foreach ($post_populer as $item)
+                    <div class="col-6 col-md-2">
                         <div class="card-populer">
                             <div class="card m-0">
                                 <img src="{{ asset('uploads/' . $item->gambar_artikel) }}" class="card-img-top"

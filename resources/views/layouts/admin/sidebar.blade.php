@@ -28,8 +28,25 @@
                         <i class="nav-icon far fa-edit"></i>
                         <p>
                             Pendaftaran Pasien
+                            <i class="fas fa-angle-left right"></i>
                         </p>
+
                     </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p style="font-size: 14px">Pasien Baru</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p style="font-size: 14px">Pasien Lama</p>
+                            </a>
+                        </li>
+
+                    </ul>
                 </li>
 
                 <li class="nav-item">
@@ -37,8 +54,8 @@
                         <i class="nav-icon fas fa-bookmark"></i>
                         <p>
                             Artikel Berita
+                            <i class="fas fa-angle-left right"></i>
                         </p>
-                        <i class="fas fa-angle-left right"></i>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
