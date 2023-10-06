@@ -17,10 +17,10 @@ return new class extends Migration
             $table->string('nik')->unique();
             $table->string('tempat_lahir');
             $table->date('tanggal_lahir');
-            $table->integer('jenis_kelamin');
+            $table->string('jenis_kelamin');
             $table->text('alamat_lengkap');
-            $table->integer('agama');
-            $table->integer('golongan_darah');
+            $table->string('agama');
+            $table->string('golongan_darah');
             $table->string('no_wa');
             $table->string('email')->unique();
             $table->timestamps();

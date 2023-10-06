@@ -21,7 +21,9 @@
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
-    <title>Login Dulu Ga Sih</title>
+    {{-- Tab Icon --}}
+    <link rel="shortcut icon" href="{{ URL::asset('assets/img/logo.png') }}">
+    <title>Login Admin BNNK Sleman</title>
 </head>
 
 <body>

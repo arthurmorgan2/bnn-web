@@ -14,8 +14,8 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row p-4 justify-content-md-center">
-                    <div class="col-md-5 m-3 d-flex justify-content-center">
+                <div class="row p-4 d-flex align-items-center justify-content-md-center">
+                    <div class="col-md-12 col-12 d-flex justify-content-center">
                         <div class="button pasienBaru rounded-3">
                             <div class="row icon">
                                 <div class="col d-flex justify-content-center p-3">
@@ -30,13 +30,13 @@
 
                             <div class="row p-2">
                                 <div class="col d-flex justify-content-center">
-                                    <a href="/pendaftaran-online/pasienbaru" type="button"
-                                        class="btn btn-primary btn-baru">Daftar</a>
+                                    <a href="/pendaftaran-online/pasienbaru" type="button" class="btn btn-warning"
+                                        style="color: white">Daftar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 m-3 d-flex justify-content-center">
+                    {{-- <div class="col-md-5 col-12 d-flex justify-content-center">
                         <div class="button pasienLama rounded-3">
                             <div class="row icon">
                                 <div class="col d-flex justify-content-center p-3">
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 

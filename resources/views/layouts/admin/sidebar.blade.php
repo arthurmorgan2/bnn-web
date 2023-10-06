@@ -34,17 +34,17 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/pasien" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p style="font-size: 14px">Pasien Baru</p>
+                                <p style="font-size: 14px">Data Pasien</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p style="font-size: 14px">Pasien Lama</p>
                             </a>
-                        </li>
+                        </li> --}}
 
                     </ul>
                 </li>
@@ -68,6 +68,30 @@
                             <a href="/artikel/kategori" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p style="font-size: 14px">Kategori Berita</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-photo-film"></i>
+                        <p>
+                            Gallery
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="/gallery/foto" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p style="font-size: 14px">Tabel Foto</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/gallery/video" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p style="font-size: 14px">Tabel Video</p>
                             </a>
                         </li>
 

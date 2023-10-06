@@ -29,9 +29,7 @@
                                     <thead>
                                         <tr>
                                             <th>No</th>
-                                            <th>Nama Kategori</th>
-                                            <th>Slug</th>
-                                            <th>Aksi</th>
+                                          
                                         </tr>
                                     </thead>
                                     <tbody>

@@ -43,7 +43,7 @@ class ArtikelController extends Controller
         $this->validate($request, [
             'judul' => 'required|max:100',
             'body' => 'required|max:2000',
-            'gambar_artikel' => 'nullable|image|mimes:jpeg,bmp,png,jpg,svg',
+            'gambar_artikel' => 'required|max:20000',
         ]);
 
         $data = [];
