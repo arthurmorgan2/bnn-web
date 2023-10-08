@@ -70,6 +70,10 @@ html {
     margin-left: 1rem;
 }
 
+.nav-active {
+    border-bottom: 2px solid var(--sc-color);
+}
+
 /* news content section */
 .news-content {
     display: flex;
@@ -485,3 +489,7 @@ video {
         margin-top: 3rem;
     }
 }
+
+/* .beranda {
+    margin-right: 200px;
+} */

@@ -13,17 +13,17 @@
         <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto px-2 mb-2 mb-lg-0 d-flex justify-content-center aling-items-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Beranda</a>
+        <ul class="navbar-nav ms-auto mx-2 mb-2 mb-lg-0 d-flex justify-content-center aling-items-center">
+            <li class="nav-item {{ request()->is('/') ? 'nav-active' : '' }}">
+                <a class="nav-link" aria-current="page" href="/">Beranda</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {{ request()->is('layanan') ? 'nav-active' : '' }}">
                 <a class="nav-link" href="/layanan">Layanan</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {{ request()->is('gallery') ? 'nav-active' : '' }}">
                 <a class="nav-link" href="/gallery">Gallery</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {{ request()->is('pendaftaran-online') ? 'nav-active' : '' }}">
                 <a class="nav-link" href="/pendaftaran-online">Daftar Online</a>
             </li>
         </ul>
