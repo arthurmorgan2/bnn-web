@@ -611,12 +611,12 @@
             </div>
         </div>
     </div>
-    {{-- <script>
+    <script>
         // Add a hover effect on custom-card
         $(".card-layanan-child").hover(function() {
             $(this).find(".collapse").collapse("show");
         }, function() {
             $(this).find(".collapse").collapse("hide");
         });
-    </script> --}}
+    </script>
 @endsection
