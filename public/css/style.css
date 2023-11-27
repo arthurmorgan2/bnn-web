@@ -71,7 +71,7 @@ html {
 }
 
 .nav-active {
-    border-bottom: 2px solid var(--sc-color);
+    border-bottom: 2px solid white;
 }
 
 /* news content section */

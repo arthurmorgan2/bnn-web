@@ -22,7 +22,7 @@ class FrontController extends Controller
     public function index()
     {
         Paginator::useBootstrap();
-        $artikel = Artikel::latest()->paginate(2);
+        $artikel = Artikel::latest()->paginate(4);
         $post_populer = Artikel::orderBy('views', 'desc')->limit('2')->get();
         $kategori = Kategori::all();
         return view('client/index', compact('artikel', 'kategori', 'post_populer'));

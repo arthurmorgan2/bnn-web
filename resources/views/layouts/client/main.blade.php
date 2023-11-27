@@ -217,15 +217,6 @@
         }
     </script>
 
-    <script>
-        $(document).ready(function() {
-            $('.nav-item').on('click', function() {
-                $('.nav-item').removeClass('active');
-                $(this).addClass('active');
-            });
-        });
-    </script>
-
     @include('sweetalert::alert')
 
 </body>

@@ -37,7 +37,7 @@
                                         </div>
                                         <div class="col-8">
                                             <div class="form-outline">
-                                                <input type="text" name="nama_lengkap" id="[nama_lengkap]"
+                                                <input type="text" name="nama_lengkap" id="nama_lengkap"
                                                     class="form-control" autofocus />
 
                                             </div>
